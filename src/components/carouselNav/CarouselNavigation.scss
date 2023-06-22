@@ -1,0 +1,16 @@
+.carousel-navigation {
+  margin-left: -350px;
+}
+.list {
+  // height: 100%;
+  position: relative;
+  top: 0;
+  z-index: 3;
+  width: 227px;
+}
+
+@media screen and (max-width: 1000px) {
+  .list {
+    display: none;
+  }
+}
